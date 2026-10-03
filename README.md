@@ -1,43 +1,43 @@
 # 🗄️ Base de Datos Relacional — Semana 8
 
-## 📌 Descripción
+## 📌 Descripción del proyecto
 
-Proyecto desarrollado para la actividad de la **Semana 8**, orientado a la construcción y gestión de una base de datos relacional utilizando **Oracle SQL Developer**.
+Este repositorio contiene el desarrollo de la actividad correspondiente a la **Semana 8**, enfocada en la construcción y consulta de una base de datos relacional mediante **Oracle SQL Developer**.
 
-El proyecto contempla la creación de tablas, definición de restricciones, inserción de datos y elaboración de consultas SQL para la recuperación y análisis de información.
+El proyecto contempla la creación de la estructura de la base de datos, definición de restricciones, inserción de información y elaboración de consultas SQL destinadas a la recuperación, filtrado, ordenamiento y procesamiento de datos.
+
+Como parte de la actividad también se desarrollaron dos informes SQL, orientados a obtener información específica de los mecánicos y realizar el cálculo de reajustes de sus remuneraciones.
 
 ---
 
 ## 🎯 Objetivo
 
-Construir una base de datos relacional normalizada mediante sentencias SQL, aplicando:
+El objetivo principal es aplicar sentencias SQL para construir y manipular una base de datos relacional, considerando buenas prácticas de integridad y organización de la información.
 
-- Creación y modificación de tablas.
-- Claves primarias y foráneas.
-- Restricciones de integridad.
-- Inserción de datos.
-- Consultas `SELECT`.
-- Filtrado mediante `WHERE`.
-- Ordenamiento mediante `ORDER BY`.
-- Aplicación de reglas de negocio.
-- Elaboración de informes mediante consultas SQL.
+Durante el desarrollo se aplicaron los siguientes elementos:
+
+- Creación de tablas mediante `CREATE TABLE`.
+- Definición de claves primarias.
+- Definición de claves foráneas.
+- Aplicación de restricciones de integridad.
+- Modificación de estructuras mediante `ALTER TABLE`.
+- Inserción de registros mediante `INSERT`.
+- Recuperación de información mediante `SELECT`.
+- Filtrado de datos utilizando `WHERE`.
+- Ordenamiento de resultados mediante `ORDER BY`.
+- Uso de operadores y expresiones para el procesamiento de información.
+- Elaboración de consultas específicas para los informes solicitados.
 
 ---
 
 ## 🛠️ Tecnologías utilizadas
 
-- **Oracle Database**
-- **Oracle SQL Developer**
-- **SQL**
+| Tecnología | Uso |
+|------------|-----|
+| **Oracle Database** | Gestión de la base de datos |
+| **Oracle SQL Developer** | Desarrollo y ejecución de sentencias SQL |
+| **SQL** | Creación, modificación y consulta de datos |
 
 ---
 
-## 📂 Contenido del proyecto
 
-El repositorio contiene el siguiente archivo principal:
-
-```text
-📁 Semana8_BaseDatos
-│
-├── 📄 Semana8_BaseDatos.sql
-└── 📄 README.md
